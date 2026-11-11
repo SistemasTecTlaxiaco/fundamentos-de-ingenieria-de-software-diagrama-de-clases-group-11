@@ -102,7 +102,7 @@ Ejemplo:  Un Socio realiza 0..* Entregas; cada Entrega es de 1 Socio. -->
 ![Diagrama de clases](../docs/analisis/diagrama-clases.png)
 Indiquen dónde está el .qea (modelo/OpenHub-Equipo.qea). -->
 
-![Diagrama de clases](../docs/analisis/diagrama-clases.png)
+![Diagrama de clases](../docs/analisis/Diagrama_Clases_UML.png)
 
 - Modelo de Architect: `modelo/OpenHub-Equipo.qea`
 - Diagrama exportado: `docs/analisis/diagrama-clases.png`
@@ -123,6 +123,4 @@ Indiquen dónde está el .qea (modelo/OpenHub-Equipo.qea). -->
 
 | Observación del equipo revisor | Qué hicimos |
 |---|---|
-| Revisaron que las asociaciones no tenían multiplicidad completa. | Corregimos las multiplicidades en todas las relaciones. |
-| Revisaron que la trazabilidad no coincidía con los requisitos. | Ajustamos la tabla de trazabilidad a los RF reales del BPMN. |
-| Revisaron que algunas operaciones estaban en la clase incorrecta. | Reubicamos los métodos a la clase que posee la información del dominio. |
+| El equipo revisor observó que algunas asociaciones no tenían multiplicidad completa, que la trazabilidad debía coincidir con los requisitos y que ciertas operaciones estaban asignadas a una clase incorrecta. Corregimos las multiplicidades, ajustamos la tabla de trazabilidad a los RF del BPMN y reubicamos las operaciones en las clases correspondientes. Revisamos los cambios para atender cada observación. |
