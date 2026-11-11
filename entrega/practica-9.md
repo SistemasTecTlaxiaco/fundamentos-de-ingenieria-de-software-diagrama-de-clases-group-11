@@ -105,7 +105,7 @@ Indiquen dónde está el .qea (modelo/OpenHub-Equipo.qea). -->
 ![Diagrama de clases](../docs/analisis/Diagrama_Clases_UML.png)
 
 - Modelo de Architect: `modelo/OpenHub-Equipo.qea`
-- Diagrama exportado: `docs/analisis/diagrama-clases.png`
+- Diagrama exportado: `docs/analisis/Diagrama_Clases_UML.png`
 
 ## 9. Trabajo en equipo
 
