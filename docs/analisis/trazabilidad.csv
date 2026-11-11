@@ -1,1 +1,11 @@
-clase,requisito,justificacion
+﻿Clase,Requisito_DRS,Justificacion
+Artesana,RF-02; RD-02,"Perfil de la maestra artesana: nombre, fotografía, biografía, experiencia y técnicas; participa en la relación de trazabilidad de cada pieza."
+Comunidad,RF-02; RD-02,Representa la comunidad de origen y permite conservar la procedencia vinculada a la artesana y al textil.
+Textil,RF-01; RF-02; RD-01; RD-02,"Registra la pieza, fotografías, tipo de tejido, materia prima, horas de trabajo, precio justo, estado y vínculos de autoría."
+CodigoQR,RF-03,Representa el QR único que dirige a la ficha pública del textil y facilita el contacto directo con la artesana.
+Venta,RF-04,"Registra fecha, monto final, canal y ubicación de la venta; permite marcar la pieza como vendida."
+ReporteVentas,RF-04,Consolida mensualmente ingresos y cantidad de piezas vendidas por evento o punto de venta.
+Material,Sin trazabilidad directa en el DRS vigente,Clase adicional propuesta durante el modelado. El DRS describe materia prima y costos como datos de la ficha Textil; justificarla o retirarla del diagrama evaluado.
+Pedido,Sin trazabilidad directa en el DRS vigente,"Clase adicional propuesta; el DRS contempla contacto vía WhatsApp, pero no especifica un módulo de pedidos."
+Cliente,Sin trazabilidad directa en el DRS vigente,"Clase adicional propuesta; el comprador es actor externo, pero no se define un expediente de cliente."
+Pago,Fuera del alcance del DRS,No debe modelarse como procesamiento de pagos: el DRS excluye pasarelas y pagos en línea. Retirar del diagrama principal o justificar un registro local distinto.
